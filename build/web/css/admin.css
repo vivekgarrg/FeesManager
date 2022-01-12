@@ -1,0 +1,89 @@
+body{
+    margin: 0px; 
+    background-color: red;
+}
+.left-a{
+    padding: 0px;
+    height: 120px;
+    position: fixed;
+    margin-top: -35px;
+    z-index: 1;
+ 
+    
+}
+.left-a #logo{
+    
+    position: relative;
+    height: 150px;
+    width: 200px;
+
+}
+.left-a a{
+   
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    height: 25px;
+    color: white;
+
+    border-radius: 5px;
+    position: relative;
+    margin-right:20px;
+    padding-bottom:  20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.left-a a:hover
+{
+    background-color: tomato;
+    border-color: tomato;
+}
+.left-a #logout{
+
+}
+.left-a #logout:hover{
+background-color: inherit;
+color: blue;
+
+}
+.admin-content{
+    color: white;
+    text-align: center;
+}
+
+.content-pg{
+    margin-top: 100px;
+
+ 
+}
+#reg-form{
+ 
+    padding: 20px;
+    border: 2px solid gray;
+}
+.std-data{
+    color: white;
+}
+
+#search
+{
+    margin-top:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   width: 200px;
+   border-radius: 5px;
+   border-color: black;
+   text-align: center;
+}
+#search-btn
+{
+   height: 30px;
+   border-radius: 5px;
+   background-color: grey;
+}
+.total-std-heading
+{
+    color: red;
+}
