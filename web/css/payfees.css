@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pay-fee-btn{
+    text-decoration: none;
+    color: white;
+}
+.pay-fee-btn:hover{
+    text-decoration: none;
+    color: brown
+}
+.search-bar{
+    width: fit-content;
+    margin: auto;
+   text-align: center;
+   margin-top: 2vh;
+   margin-bottom: 4vh;
+}
+.search-bar input:nth-child(1){
+ 
+    border: 2px solid brown;
+    text-align: center;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+.search-bar input:nth-child(1):focus{
+   outline: none;
+}
+.search-bar input:nth-child(2){
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #E8A724;
+    border-radius: 8px;
+    color: brown;
+    border-color: brown; 
+}
+
+.pay-fee-form{
+    width:fit-content;
+    margin: auto;
+    margin-top: 20vh;
+    border: 2px solid gray;
+    padding: 10px;
+    box-shadow: 2px 3px 3px;
+    background-color: #9A5040;
+  
+}
+.pay-in input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 4px;
+}
+.pay-in placeholder{
+   color: white;
+   margin-left: 4px;
+}
+.pay-in input:focus{
+    outline: none;
+}
+.pay-fee-in{
+    width: fit-content;
+    margin: auto;
+}
+.pay-fee-in input{
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    height: 30px;
+}
+.pay-fee-btn{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}

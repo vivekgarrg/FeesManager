@@ -1,0 +1,42 @@
+#reg-form
+{
+    box-shadow: 10px 10px 5px grey;
+  
+}
+#submit-btn
+{
+    color: white;
+    border-radius: 10px;
+}
+.cards-title
+{
+    color: white;
+    text-align: center;
+    font-family: cursive; 
+   
+}
+.std-card
+{
+    background-color: inherit;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 40px;
+}
+.cards-data
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.fee-paid
+{
+    color: green;
+}
+.fee-rem
+{
+    color: red;
+}
+.tot-fees
+{
+    color: darkblue;
+}
+
